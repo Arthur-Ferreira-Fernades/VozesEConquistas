@@ -1,0 +1,58 @@
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 3rem 0;
+    font-family: 'Playfair Display', serif;
+}
+
+.rodape-conteudo {
+    display: flex;
+    justify-content: space-between;
+    padding: 0 2rem;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.rodape-conteudo > div {
+    width: 30%;
+}
+
+footer h3 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: #ffd700;
+}
+
+footer p {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+footer a {
+    text-decoration: none;
+    color: #ffd700;
+    font-weight: bold;
+}
+
+footer a:hover {
+    text-decoration: underline;
+}
+
+footer .redes-sociais ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .redes-sociais li {
+    margin-bottom: 0.5rem;
+}
+
+footer .direitos {
+    text-align: center;
+    margin-top: 2rem;
+    font-size: 0.9rem;
+}
+
+footer .direitos p {
+    color: #bbb;
+}

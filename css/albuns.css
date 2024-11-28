@@ -1,0 +1,26 @@
+.conteudo {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.galeria {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Playfair Display', serif;
+}
+
+.album {
+    display: flex;
+    flex-direction: row;
+    margin: 1rem;
+}
+
+.album iframe {
+    margin: 1rem;
+    width: 500px;
+}
