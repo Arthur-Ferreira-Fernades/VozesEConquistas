@@ -6,9 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="icon" href="img/logo.png">
     <link rel="stylesheet" href="css/cabecalho.css">
-    <link rel="stylesheet" href="css/home.css">
     <link rel="stylesheet" href="css/rodape.css">
-    <title>Home</title>
+    <title>Figuras Históricas</title>
 </head>
 <body>
     <header>
@@ -17,33 +16,56 @@
                 <img src="img/logo.png" alt="Logo" width="300px">
             </div>
             <div class="links">
-                <a href="#top">Home</a>
+                <a href="index.html">Home</a>
                 <a href="albuns.html">Albuns</a>
-                <a href="figuras.html">Figuras Históricas</a>
+                <a href="#">Figuras Históricas</a>
                 <a href="#">Movimentos</a>
             </div>
         </div>
     </header>
     <main>
-        <div class="conteudo">
-            <section class="introducao">
-                <h1>Bem-vindo ao "Vozes e Conquistas"</h1>
-                <p>
-                    "Vozes e Conquistas" é uma galeria dedicada a celebrar as trajetórias, lutas e legados de músicos, figuras históricas e movimentos negros que moldaram a história e continuam a inspirar o mundo. Aqui, você encontrará histórias de resistência, coragem e superação, além de uma rica coleção de expressões culturais que se espalharam pelo tempo e espaço.
-                </p>
-                <p>
-                    Cada parte deste projeto tem como objetivo honrar e dar visibilidade às conquistas de negros e negras, tanto no Brasil quanto no mundo. Através da música, da arte e da política, vamos reviver momentos marcantes que ajudaram a transformar a sociedade e abriram portas para novas possibilidades.
-                </p>
-                <h2>O que você vai encontrar:</h2>
-                <ul>
-                    <li><strong>Músicos:</strong> Explore as vidas e a obra de grandes músicos negros que definiram estilos e influenciaram gerações.</li>
-                    <li><strong>Figuras Históricas:</strong> Conheça as histórias de líderes e pensadores que lutaram pela liberdade e igualdade.</li>
-                    <li><strong>Movimentos:</strong> Descubra os movimentos que promoveram a justiça social e inspiraram transformações políticas e culturais.</li>
-                </ul>
-                <p>
-                    Nossa missão é não apenas preservar, mas também amplificar essas vozes, para que o legado de resistência, arte e transformação continue a ser lembrado, estudado e celebrado. Junte-se a nós nessa jornada de reconhecimento e respeito.
-                </p>
-            </section>
+        <h1>Figuras Negras Históricas</h1>
+        <section class="card-container">
+            <div class="card" onclick = "toggleInfo('mandela')">
+                <h2>Nelson Mandela</h2>
+                <img src="img/NelsonMandela.jpg" alt="Nelson Mandela" width="300px">
+                <p class="description" id = "mandela">Clique para ver mais</p>
+                <div class="info" id="info-mandela" style="display: none;">
+                    <p>Descrição Nelson Mandela</p>
+                </div>
+            </div>
+            <div class="card" onclick = "toggleInfo('MartinLutherKingJr')">
+                <h2>Martin Luther King Jr</h2>
+                <img src="img/MartinLutherKingJr.webp" alt="Martin Luther King Jr" width="300px">
+                <p class="description" id = "MartinLutherKingJr">Clique para ver mais</p>
+                <div class="info" id="info-MartinLutherKingJr" style="display: none;">
+                    <p>Descrição Martin Luther King Jr</p>
+                </div>
+            </div>
+        </section>
+        <div class="figura">
+            <h2>Martin Luther King Jr</h2>
+        </div>
+        <div class="figura">
+            <h2>Tereza de Banguela</h2>
+        </div>
+        <div class="figura">
+            <h2>Zumbi dos Palmares</h2>
+        </div>
+        <div class="figura">
+            <h2>Rosa Parks</h2>
+        </div>
+        <div class="figura">
+            <h2>Frantz Fanon</h2>
+        </div>
+        <div class="figura">
+            <h2>W.E.B Du Bois</h2>
+        </div>
+        <div class="figura">
+            <h2>Malcon X</h2>
+        </div>
+        <div class="figura">
+            <h2>Angela Davis</h2>
         </div>
     </main>
     <footer>
@@ -70,5 +92,6 @@
             <p>&copy; 2024 Vozes e Conquistas. Todos os direitos reservados.</p>
         </div>
     </footer>
+    <script src="scripts/figuras.js"></script>
 </body>
 </html>
