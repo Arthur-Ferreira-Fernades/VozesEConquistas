@@ -7,6 +7,7 @@
     <link rel="icon" href="img/logo.png">
     <link rel="stylesheet" href="css/cabecalho.css">
     <link rel="stylesheet" href="css/rodape.css">
+    <link rel="stylesheet" href="css/figuras.css">
     <title>Figuras Históricas</title>
 </head>
 <body>
@@ -18,56 +19,135 @@
             <div class="links">
                 <a href="index.html">Home</a>
                 <a href="albuns.html">Albuns</a>
-                <a href="#">Figuras Históricas</a>
-                <a href="#">Movimentos</a>
+                <a href="#top">Figuras Históricas</a>
+                <a href="movimentos.html">Movimentos</a>
             </div>
         </div>
     </header>
     <main>
         <h1>Figuras Negras Históricas</h1>
         <section class="card-container">
-            <div class="card" onclick = "toggleInfo('mandela')">
+            <article class="card" onclick="toggleInfo('mandela')">
                 <h2>Nelson Mandela</h2>
-                <img src="img/NelsonMandela.jpg" alt="Nelson Mandela" width="300px">
-                <p class="description" id = "mandela">Clique para ver mais</p>
-                <div class="info" id="info-mandela" style="display: none;">
-                    <p>Descrição Nelson Mandela</p>
+                <img src="img/NelsonMandela.jpg" alt="Nelson Mandela">
+                <p class="description" id="mandela">Clique para ver mais</p>
+                <div class="info" id="info-mandela">
+                    <p>
+                        Nelson Mandela foi um líder sul-africano, advogado e ativista, que se tornou símbolo mundial da luta contra o apartheid e pela igualdade racial. 
+                        Após passar 27 anos na prisão, Mandela se tornou o primeiro presidente negro da África do Sul e desempenhou um papel fundamental na reconciliação 
+                        nacional e no combate às desigualdades raciais. Seu compromisso com a justiça e a paz lhe garantiu o Prêmio Nobel da Paz em 1993.
+                    </p>
                 </div>
-            </div>
-            <div class="card" onclick = "toggleInfo('MartinLutherKingJr')">
+            </article>
+
+            <article class="card" onclick="toggleInfo('MartinLutherKingJr')">
                 <h2>Martin Luther King Jr</h2>
-                <img src="img/MartinLutherKingJr.webp" alt="Martin Luther King Jr" width="300px">
-                <p class="description" id = "MartinLutherKingJr">Clique para ver mais</p>
-                <div class="info" id="info-MartinLutherKingJr" style="display: none;">
-                    <p>Descrição Martin Luther King Jr</p>
+                <img src="img/MartinLutherKingJr.webp" alt="Martin Luther King Jr">
+                <p class="description" id="MartinLutherKingJr">Clique para ver mais</p>
+                <div class="info" id="info-MartinLutherKingJr">
+                    <p>
+                        Martin Luther King Jr. foi um pastor e ativista americano que se tornou um dos líderes mais emblemáticos do movimento pelos direitos civis nos Estados Unidos. 
+                        Famoso por sua filosofia de não-violência, King lutou contra a segregação racial e a injustiça social, utilizando a desobediência civil pacífica como ferramenta
+                        de resistência. Seu famoso discurso "I Have a Dream" é um marco na história dos direitos humanos.
+                    </p>
                 </div>
-            </div>
+            </article>
+
+            <article class="card" onclick="toggleInfo('TerezaDeBenguela')">
+                <h2>Tereza de Benguela</h2>
+                <img src="img/TerezaDeBenguela.webp" alt="Tereza de Benguela">
+                <p class="description" id="TerezaDeBenguela">Clique para ver mais</p>
+                <div class="info" id="info-TerezaDeBenguela">
+                    <p>
+                        Tereza de Benguela foi uma líder quilombola do século XVIII, reconhecida por sua luta contra a opressão e exploração dos negros escravizados no Brasil.
+                        À frente do Quilombo do Piolho, em Mato Grosso, ela foi uma figura de resistência, organizando e defendendo sua comunidade contra as forças coloniais. 
+                        Tereza se tornou um símbolo da luta contra a escravidão e da valorização da cultura negra.
+                    </p>
+                </div>
+            </article>
+
+            <article class="card" onclick="toggleInfo('ZumbiDosPalmares')">
+                <h2>Zumbi dos Palmares</h2>
+                <img src="img/ZumbiDosPalmares.jpeg" alt="Zumbi dos Palmares">
+                <p class="description" id="ZumbiDosPalmares">Clique para ver mais</p>
+                <div class="info" id="info-ZumbiDosPalmares">
+                    <p>
+                        Zumbi dos Palmares foi o último líder do Quilombo dos Palmares, uma das maiores comunidades de resistência à escravidão no Brasil. Em um período de grande opressão,
+                        Zumbi se destacou por sua coragem e inteligência na luta pela liberdade dos negros escravizados. Sua morte, em 1695, tornou-se um símbolo da resistência negra e
+                        ele é celebrado como um herói nacional, especialmente no Dia da Consciência Negra.
+                    </p>
+                </div>
+            </article>
+
+            <article class="card" onclick="toggleInfo('RosaParks')">
+                <h2>Rosa Parks</h2>
+                <img src="img/RosaParks.webp" alt="Rosa Parks">
+                <p class="description" id="RosaParks">Clique para ver mais</p>
+                <div class="info" id="info-RosaParks">
+                    <p>
+                        Rosa Parks foi uma ativista dos direitos civis americana que ficou mundialmente conhecida por sua recusa em ceder seu assento a um branco em um ônibus segregado 
+                        de Montgomery, Alabama, em 1955. Seu ato de resistência desencadeou o boicote aos ônibus e ajudou a galvanizar o movimento pelos direitos civis nos Estados Unidos,
+                        tornando-se um ícone da luta contra a segregação racial e pela igualdade de direitos.
+                    </p>
+                </div>
+            </article>
+
+            <article class="card" onclick="toggleInfo('FrantzFanon')">
+                <h2>Frantz Fanon</h2>
+                <img src="img/FrantzFanon.jpg" alt="Frantz Fanon">
+                <p class="description" id="FrantzFanon">Clique para ver mais</p>
+                <div class="info" id="info-FrantzFanon">
+                    <p>
+                        Frantz Fanon foi um psiquiatra, filósofo e escritor francês nascido na Martinica, que se tornou um pensador fundamental nas discussões sobre colonialismo, racismo 
+                        e luta pela libertação. Suas obras, como "Os Condenados da Terra", influenciaram movimentos de descolonização e a luta contra as opressões raciais. Fanon tratou
+                        da psicologia da opressão e do impacto psicológico da colonização nas populações negras e outras minorias.
+                    </p>
+                </div>
+            </article>
+
+            <article class="card" onclick="toggleInfo('W.E.BDuBois')">
+                <h2>W.E.B Du Bois</h2>
+                <img src="img/W.E.BDuBois.webp" alt="W.E.B Du Bois">
+                <p class="description" id="W.E.BDuBois">Clique para ver mais</p>
+                <div class="info" id="info-W.E.BDuBois">
+                    <p>
+                        W.E.B. Du Bois foi um sociólogo, historiador e ativista dos direitos civis afro-americano, reconhecido como um dos fundadores da NAACP 
+                        (Associação Nacional para o Progresso das Pessoas de Cor). Ele foi um dos primeiros intelectuais a chamar a atenção para a importância 
+                        da educação e da cultura na luta pela liberdade dos negros, e também defendeu a valorização do legado africano. Du Bois foi um defensor 
+                        incansável da igualdade racial e da justiça social.
+                    </p>
+                </div>
+            </article>
+
+            <article class="card" onclick="toggleInfo('MalconX')">
+                <h2>Malcon X</h2>
+                <img src="img/MalconX.png" alt="Malcon X">
+                <p class="description" id="MalconX">Clique para ver mais</p>
+                <div class="info" id="info-MalconX">
+                    <p>
+                        Malcolm X foi um ativista e líder afro-americano que se tornou uma das figuras mais influentes na luta pelos direitos civis nos Estados Unidos.
+                        Inicialmente, membro da nação muçulmana, suas ideias evoluíram para um discurso mais radical contra a opressão e a violência racial. 
+                        Com seu discurso potente e sua luta por direitos iguais, Malcolm X se tornou um símbolo da resistência negra, influenciando gerações de ativistas
+                        ao redor do mundo.
+                    </p>
+                </div>
+            </article>
+
+            <article class="card" onclick="toggleInfo('AngelaDavis')">
+                <h2>Angela Davis</h2>
+                <img src="img/AngelaDavis.jpg" alt="Angela Davis">
+                <p class="description" id="AngelaDavis">Clique para ver mais</p>
+                <div class="info" id="info-AngelaDavis">
+                    <p>
+                        Angela Davis é uma filósofa, ativista e professora americana conhecida por sua luta contra o racismo, o sexismo e a opressão dos pobres. 
+                        Durante a década de 1960 e 1970, ela se envolveu ativamente no movimento pelos direitos civis e foi uma defensora dos direitos dos prisioneiros e da justiça social.
+                        Foi injustamente acusada de envolvimento em um sequestro e assassinato, mas sua luta pela liberdade a transformou em um ícone global de resistência.
+                    </p>
+                </div>
+            </article>
         </section>
-        <div class="figura">
-            <h2>Martin Luther King Jr</h2>
-        </div>
-        <div class="figura">
-            <h2>Tereza de Banguela</h2>
-        </div>
-        <div class="figura">
-            <h2>Zumbi dos Palmares</h2>
-        </div>
-        <div class="figura">
-            <h2>Rosa Parks</h2>
-        </div>
-        <div class="figura">
-            <h2>Frantz Fanon</h2>
-        </div>
-        <div class="figura">
-            <h2>W.E.B Du Bois</h2>
-        </div>
-        <div class="figura">
-            <h2>Malcon X</h2>
-        </div>
-        <div class="figura">
-            <h2>Angela Davis</h2>
-        </div>
     </main>
+
     <footer>
         <div class="rodape-conteudo">
             <div class="sobre">
@@ -92,6 +172,7 @@
             <p>&copy; 2024 Vozes e Conquistas. Todos os direitos reservados.</p>
         </div>
     </footer>
+
     <script src="scripts/figuras.js"></script>
 </body>
 </html>

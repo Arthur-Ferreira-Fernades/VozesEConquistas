@@ -6,6 +6,18 @@
     align-items: center;
 }
 
+body {
+    background-color: #f4f4f4;
+}
+
+main {
+    padding: 12rem;
+}
+
+h1, h2 {
+    font-family: "Playfair Display", serif;
+}
+
 .galeria {
     display: flex;
     flex-direction: column;
