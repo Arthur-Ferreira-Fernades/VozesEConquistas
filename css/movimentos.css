@@ -87,3 +87,58 @@ main {
 #search:focus {
     border-color: #333;
 }
+
+@media (max-width: 768px) {
+
+    h1 {
+        margin: 7rem 0 0 0;
+    }
+
+    main {
+        padding: 5rem 1rem;
+    }
+
+    .card-container {
+        justify-content: center;
+        padding: 0 10px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 350px;
+        margin-bottom: 20px;
+    }
+
+    .search-container {
+        width: 80%;
+        margin: 20px auto;
+    }
+
+    #search {
+        width: 100%;
+    }
+}
+
+@media (max-width: 480px) {
+    .card h2 {
+        font-size: 1.2rem;
+    }
+
+    .card .description {
+        font-size: 0.9rem;
+    }
+
+    .card {
+        width: 100%;
+        margin: 10px auto;
+    }
+
+    .search-container {
+        width: 90%;
+    }
+
+    #search {
+        font-size: 0.9rem;
+        padding: 8px;
+    }
+}

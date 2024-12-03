@@ -9,12 +9,17 @@
 
 header {
     width: 100%;
+    height: auto;
     position: fixed;
     max-width: 100%;
     top: 0;
     left: 0;
     right: 0;
     z-index: 1000; 
+}
+
+header img{
+    margin: 4rem 0 0 0;
 }
 
 .cabecalho {
@@ -58,4 +63,52 @@ header {
 .links a:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
+}
+
+.menu-hamburguer {
+    display: none;
+    flex-direction: column;
+    gap: 4px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+}
+
+#menu-links {
+    margin: 7rem 0 0 0;
+}
+
+.menu-hamburguer span {
+    background-color: #ffd700;
+    width: 30px;
+    height: 4px;
+    border-radius: 4px;
+}
+
+@media (max-width: 768px) {
+    .links {
+        display: none;
+        width: 100%;
+        background-color: rgb(26, 25, 25);
+        position: absolute;
+        top: 4rem;
+        left: 0;
+        padding: 1rem;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+
+    .links a {
+        font-size: 1.2rem;
+        padding: 1rem 0;
+    }
+
+    .menu-hamburguer {
+        display: flex;
+    }
+
+    .links.active {
+        display: flex;
+    }
 }

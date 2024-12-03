@@ -11,7 +11,7 @@ body {
 }
 
 main {
-    padding: 12rem;
+    padding: 12rem 1rem;
 }
 
 h1, h2 {
@@ -30,9 +30,60 @@ h1, h2 {
     display: flex;
     flex-direction: row;
     margin: 1rem;
+    justify-content: space-between;
+    align-items: center;
 }
 
 .album iframe {
     margin: 1rem;
     width: 500px;
+}
+
+@media (max-width: 768px) {
+    .conteudo {
+        padding: 2rem;
+    }
+
+    main {
+        padding: 5rem 1rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    h2 {
+        padding: 1rem;
+        font-size: 1.5rem;
+    }
+
+    .galeria {
+        padding: 0 1rem;
+    }
+
+    .album {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .album iframe {
+        width: 100%;
+        max-width: 400px; 
+    }
+}
+
+@media (max-width: 480px) {
+    h1 {
+        font-size: 1.8rem;
+    }
+
+    h2 {
+        padding: 1rem;
+        font-size: 1.3rem;
+    }
+
+    .album iframe {
+        width: 100%;
+        max-width: 300px;
+    }
 }
